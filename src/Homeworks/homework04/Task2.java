@@ -6,7 +6,7 @@ public class Task2 {
     public static void main(String[] args){
         Scanner scanner = new Scanner(System.in);
 
-        System.out.print("Введите строку: ");
+        System.out.print("Введите  строку: ");
         String input = scanner.nextLine();
 
         int kolvoStrel = 0;
