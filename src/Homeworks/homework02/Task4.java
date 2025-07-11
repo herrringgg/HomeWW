@@ -15,7 +15,7 @@ public class Task4 {
         int ctolb = vvod.nextInt();
         System.out.println();
 
-        System.out.print("Введите повторяемый элемент сетки: ");
+        System.out.print("Введите  повторяемый элемент сетки: ");
         String element = vvod.next();
         System.out.println();
 

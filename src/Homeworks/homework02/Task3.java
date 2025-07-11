@@ -11,7 +11,7 @@ public class Task3 {
         String slovo = vvod.next();
         System.out.println();
 
-        System.out.print("Сколько раз ввести строку? ");
+        System.out.print("Сколько  раз ввести строку? ");
         int povtor = vvod.nextInt();
         System.out.println();
 

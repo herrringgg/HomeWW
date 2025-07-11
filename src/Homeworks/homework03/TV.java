@@ -22,7 +22,7 @@ public class TV {
     }
 
     public TV() {
-        this.companyFirm = "Hisense 55E7NQ";
+        this.companyFirm = "Hisense 755E7NQ";
         this.diagonal = 55;
         this.refreshRate = 60;
         this.screenTechnology = "QLED";

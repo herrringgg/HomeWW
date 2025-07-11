@@ -19,7 +19,7 @@ public class Task2 {
         } else if ((Ole == 0 && Eha == 1) || (Ole == 1 && Eha == 2) || (Ole == 2 && Eha == 0)) {
             System.out.println("Ole выйграл, красавчик!");
         } else {
-            System.out.println("Ole продул, Eha красавчик!");
+            System.out.println("Ole проиграл, Eha красавчик!");
         }
     }
 }

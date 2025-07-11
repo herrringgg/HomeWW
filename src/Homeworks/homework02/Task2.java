@@ -14,7 +14,7 @@ public class Task2 {
         System.out.println("Произведение из двух целых чисел: " + (numb1 * numb2));
         int s = (numb1 + numb2);
         double n = (double) s / 2;
-        System.out.print("Среднее из двух целых чисел: ");
+        System.out.print("Среднее из двух  целых чисел: ");
         System.out.printf("%.2f", n);
         System.out.println();
         System.out.println("Расстояние двух целых чисел: " + Math.abs(numb1 - numb2));

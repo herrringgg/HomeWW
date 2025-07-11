@@ -8,7 +8,7 @@ public class Task1 {
         Scanner input = new Scanner(System.in);
 
         String string = "qwertyuiopasdfghjklzxcvbnm";
-        System.out.print("Введите букву: ");
+        System.out.print("Введите  букву: ");
 
         char inputt = input.next().charAt(0);
         int index = string.indexOf(inputt);

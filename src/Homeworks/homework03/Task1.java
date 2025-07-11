@@ -3,7 +3,7 @@ package Homeworks.homework03;
 public class Task1 {
     public static void main(String[] args) {
 
-        TV myTV = new TV("Samsung", 65, 68, "qled", "Direct LED");
+        TV myTV = new TV("Samung", 65, 68, "qled", "Direct LED");
         System.out.println(myTV);
         System.out.println(myTV.getCompanyFirm());
 
