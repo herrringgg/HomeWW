@@ -7,7 +7,7 @@ public class Task1 {
         System.out.print("7   ");
         System.out.println("8");
 
-        System.out.print("1   3   6   9");
+        System.out.print("1 5 8 9");
 
     }
 }
