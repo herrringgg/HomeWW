@@ -4,7 +4,7 @@ import java.util.Arrays;
 
 public class Task1 {
     public static void main(String[] args) {
-        int[] array = {12, 7, 25, 18, 33, 40, 21};
+        int[] array = {892, 46, 90, 98, 33, 40, 2251};
 
 
         int[] evens = Sequence.filter(array, number -> number % 2 == 0);
