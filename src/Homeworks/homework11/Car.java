@@ -15,7 +15,7 @@ public class Car {
         this.cost = cost;
     }
 
-    // Геттеры и сеттеры
+
     public String getNumber() {
         return number;
     }

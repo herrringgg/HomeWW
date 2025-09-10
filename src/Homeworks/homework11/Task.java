@@ -39,7 +39,7 @@ public class Task {
                 .average();
 
         double averageCost = avg.orElse(0);
-        System.out.printf("Средняя стоимость модели %s: %.2f%n", model, averageCost);
+        System.out.printf("Средняя  стоимость модели %s: %.2f%n", model, averageCost);
     }
 }
 
