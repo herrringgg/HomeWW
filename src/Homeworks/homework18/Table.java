@@ -37,4 +37,6 @@ public class Table {
     LEFT JOIN shop.orders o ON o.customer_id = c.id
     GROUP BY c.id, c.first_name, c.last_name, c.discount_percent;
     */
+
+    int d = 2;
 }
