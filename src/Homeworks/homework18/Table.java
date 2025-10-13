@@ -38,5 +38,5 @@ public class Table {
     GROUP BY c.id, c.first_name, c.last_name, c.discount_percent;
     */
 
-    int d = 2;
+    int d = 6;
 }
