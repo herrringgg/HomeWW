@@ -19,7 +19,7 @@ public class CarRepositoryFileImplTest {
 
     @Test
     void testFindById() {
-        Car c = repo.findById("Toyota|Corolla|2010"); // если используешь composite id
+        Car c = repo.findById("Toyota|Corolla|2010"); 
         assertNotNull(c);
         assertEquals("Corolla", c.getModel());
     }
