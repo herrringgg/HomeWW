@@ -27,4 +27,5 @@ public class app {
     SELECT * FROM shop.orders;
     SELECT * FROM shop.customer_order_summary;
     */
+    int a = 1;
 }
