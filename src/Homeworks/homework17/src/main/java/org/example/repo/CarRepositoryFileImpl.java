@@ -46,7 +46,6 @@ public class CarRepositoryFileImpl implements CarRepository {
     }
 
     private Car fromLine(String line) {
-        // формат: id|brand|model|year|horsepower|acceleration|suspension|durability
         String[] p = line.split("\\|", -1);
         String id = p[0];
         String brand = p[1];
@@ -57,13 +56,10 @@ public class CarRepositoryFileImpl implements CarRepository {
         int suspension = Integer.parseInt(p[6]);
         int durability = Integer.parseInt(p[7]);
         Car car = new Car(brand, model, year, horsepower, acceleration, suspension, durability);
-        // используем id как дополнительное поле — можно хранить внутри Car, но у тебя Car не имеет id;
-        // если нужно id, добавь поле id в Car и адаптируй Lombok класс
         return car;
     }
 
     private String toLine(Car car) {
-        // если ты добавил поле id в Car — используйте car.getId()
         return String.join("|",
                 "", // id placeholder
                 Objects.toString(car.getBrand(), ""),
@@ -88,14 +84,13 @@ public class CarRepositoryFileImpl implements CarRepository {
     @Override
     public synchronized Car findById(String id) {
         return readAll().stream()
-                .filter(c -> Objects.equals(id, carId(c))) // carId — если у тебя есть id field
+                .filter(c -> Objects.equals(id, carId(c))) 
                 .findFirst()
                 .orElseThrow(() -> new IllegalArgumentException("Car not found: " + id));
     }
 
-    // Вам, возможно, нужно добавить или реализовать carId(car) если добавите поле id в Car.
+   
     private String carId(Car car) {
-        // если нет id, можно использовать composite key brand+model+year
         return car.getBrand() + "|" + car.getModel() + "|" + car.getYear();
     }
 
