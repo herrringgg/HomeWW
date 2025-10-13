@@ -46,6 +46,7 @@ public class CarRepositoryFileImpl implements CarRepository {
     }
 
     private Car fromLine(String line) {
+      
         String[] p = line.split("\\|", -1);
         String id = p[0];
         String brand = p[1];

@@ -1,0 +1,31 @@
+package Homeworks.homework18;
+
+public class app {
+   /* CREATE OR REPLACE VIEW shop.customer_order_summary AS
+    SELECT
+    c.id,
+    c.first_name,
+    c.last_name,
+    c.discount_percent,
+    COUNT(o.id) AS orders_count,
+    COALESCE(SUM(o.total_amount),0) AS total_spent
+    FROM shop.customers c
+    LEFT JOIN shop.orders o ON o.customer_id = c.id
+    GROUP BY c.id, c.first_name, c.last_name, c.discount_percent;
+
+
+    INSERT INTO shop.customers(first_name, last_name, discount_percent)
+    VALUES ('Иван', 'Иванов', 5.0),
+       ('Анна', 'Петрова', 10.0);
+
+    INSERT INTO shop.orders(customer_id, total_amount)
+    VALUES (1, 1000.00),
+       (1, 500.00),
+               (2, 750.00);
+
+    SELECT * FROM shop.customers;
+    SELECT * FROM shop.orders;
+    SELECT * FROM shop.customer_order_summary;
+    */
+    int a = 2;
+}
