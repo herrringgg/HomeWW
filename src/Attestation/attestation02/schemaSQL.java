@@ -4,7 +4,7 @@ public class schemaSQL {
     /*
     CREATE SCHEMA IF NOT EXISTS shop;
 
--- удаление старых таблиц,
+-- удаление старых таблиц
     DROP TABLE IF EXISTS shop.orders CASCADE;
     DROP TABLE IF EXISTS shop.customers CASCADE;
     DROP TABLE IF EXISTS shop.products CASCADE;
