@@ -1,7 +1,7 @@
 package Attestation.attestation02;
 
 public class testQueriesSQL {
-    /* --Все покупатели
+    /* --Все покупателиb
 SELECT * FROM shop.customers ORDER BY id;
 
 -- Товары дешевле 10000
